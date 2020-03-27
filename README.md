@@ -20,6 +20,6 @@ You can directly run commands without opening a shell
 `redis-cli -h CONTAINER_HOST_NAME -p 6380 -a CACHE_ACCESS_KEY dbsize`
 
 ## TODO
-- Build in Azure DevOps and push to ACR
+- Push to ACR from Azure DevOps
 - Run container from Octopus, flush cache, remove container
 - Run redis-cli in a container too?
